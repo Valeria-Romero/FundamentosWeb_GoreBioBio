@@ -1,0 +1,21 @@
+form{
+    width: 60%;
+    border: 5px solid black;
+    /* margin: 50px; */
+    /* margin: 50px 150px; */
+    margin: 50px auto;
+    /* margin: 10px 15px 300px 45px; */
+    padding: 10px 35px;
+}
+
+input{
+    margin-top: 20px;
+}
+
+button{
+    margin: 15px 0;
+}
+
+select, textarea, button{
+    margin: 25px;
+}
