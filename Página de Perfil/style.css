@@ -1,16 +1,52 @@
-.barraTop{
-    border: 3px solid magenta;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+nav{
+    background-color: gray;
+    height: 75px;
 }
 
-.accion{
-    border: none;
-    padding: 10px 100px;
-    background-color: blueviolet;
-    color: white;
-    border-radius: 5px;
+main{
+    border: 2px solid green;
+    height: 70%;
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+}
 
+section{
+    border: 2px solid magenta;
+    height: 600px;
+    width: 300px;
+}
+
+.izquierda{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.derecha{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tarjetaUsuario, .educacion, .solicitudes, .contactos{
+    border: 2px solid orange;
+}
+
+.tarjetaUsuario{
+    flex: 2;
+}
+
+.educacion{
+    flex: 1;
+}
+
+.solicitudes{
+    flex: 3;
+}
+
+.contactos{
+    flex: 10;
 }
