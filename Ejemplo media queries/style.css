@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*  Forma antigua de sintaxis
+
+@media only screen and (max-width: 481px){ celular
+}
+@media only screen and (min-width: 482px) and (max-width: 1023px){ tablet
+}
+@media only screen and (min-width: 1024px){ computadora
+} */
+
+@media (width <= 481px){
+    /* Celular */
+    h1{
+        color: blue;
+        text-align: center;
+        font-size: 3rem; /* 1rem = 16px (1 * 16) */
+    }
+
+    .padre{
+        border: 2px solid blue;
+        width: 80%;
+        margin: 0 auto;
+        padding: 2vh;
+        background-color: aqua;
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+    .hijo{
+        background-color: pink;
+        height: 30vh; /* visual height */
+        border: 2px solid red;
+    }
+}
+
+@media (482px <= width <= 1023px){
+    /* Tablet */
+    h1{
+        color: orange;
+    }
+
+    .hijo{
+        background-color: green;
+        border: 2px solid rgb(10, 65, 28);
+        height: 20vh;
+        flex: 45%;
+    }
+
+    .padre{
+        width: 90%;
+        margin: 5% auto;
+        border: 2px solid red;
+        background-color: orange;
+        padding: 2vh;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2vh;
+    }
+}
+
+@media (1023px <= width){
+    /* Computadora */
+    h1{
+        color: violet;
+        margin: 1vh 2vw; /* vh= visual height, vw= visual width*/
+    }
+
+    .padre{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 10% auto;
+        gap: 2vh;
+        background-color: gray;
+        border: 2px solid rgb(47, 44, 44);
+        padding: 2vh;
+    }
+
+    .hijo{
+        background-color: violet;
+        border: 2px solid rgb(131, 33, 131);
+        height: 30vh;
+        flex: 30%;
+    }
+}
