@@ -1,0 +1,40 @@
+.resize{
+    height: 150px;
+}
+
+.container{
+    margin: 0 auto;
+    width: 800px;
+}
+
+.blue{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(29, 29, 96);
+    padding: 20px;
+}
+
+.pink{
+    display: flex;
+    justify-content: space-around;
+    background-color: pink;
+    padding: 20px;
+}
+
+.yellow{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(232, 171, 67);
+    padding: 20px;
+}
+
+h1, p{
+    text-align: center;
+}
+
+p{
+    background-color: green;
+    margin: 0;
+    padding: 20px;
+}

@@ -1,0 +1,11 @@
+.padre{
+    background-color: beige;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.hijo{
+    display: inline-block;
+    background-color: blueviolet;
+    margin-right: 100px;
+}

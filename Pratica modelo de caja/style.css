@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.padre{
+    border: 5px solid black;
+    margin: 50px 0;
+    padding: 20px;
+}
+
+#buscar{
+    border: 2px solid black;
+    margin: 50px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: block;
+}
+
+#mas{
+    border: none;
+    padding: 35px 50px;
+    border-radius: 50%;
+    color: white;
+    font-size: 50px;
+    background-color: orangered;
+    display: block;
+}
+
+#cuenta{
+    border: none;
+    background-color: teal;
+    color: white;
+    padding: 15px 25px;
+    box-shadow: 10px 10px 20px gray;
+    display: block;
+}
+
+button{
+    font-family: sans-serif;
+}
+
+div.padre h1{
+    color: blue;
+}
