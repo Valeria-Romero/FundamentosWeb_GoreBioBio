@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container{
     /* Propiedades de tamaño */
     width: 800px;
@@ -32,3 +33,39 @@
 
 
 
+=======
+.container{
+    /* Propiedades de tamaño */
+    width: 800px;
+    background-color: rgb(243, 241, 241);
+    margin: 0px auto;
+    padding: 20px;
+    /* Propiedades de texto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: gray;
+}
+
+.resize{
+    height: 150px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(249, 184, 3);
+    padding: 20px;
+}
+
+.pink{
+    background-color: thistle;
+    justify-content: space-around;
+}
+
+.blue{
+    background-color: cornflowerblue;
+}
+
+
+
+>>>>>>> 9deb1358bc14a78467567c0cb8c10b6b07b73863

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -32,4 +33,40 @@ li, a{
     border: none;
     font-size: large;
     cursor: pointer; /* Cambia el cursor a la manita cuando pasamos el raton sobre el boton */
+=======
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+nav{
+    height: 75px;
+    background-color: rgb(74, 74, 74);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+    font-size: larger;
+    align-items: center;
+}
+
+li, a{
+    list-style: none;
+    text-decoration: none;
+} 
+
+#cerrar{
+    padding: 5px 10px;
+    background-color: rgb(33, 91, 91);
+    border: none;
+    font-size: large;
+    cursor: pointer; /* Cambia el cursor a la manita cuando pasamos el raton sobre el boton */
+>>>>>>> 9deb1358bc14a78467567c0cb8c10b6b07b73863
 }
